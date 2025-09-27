@@ -49,13 +49,19 @@
     },
       {
         "type": "line",
-        "text": "You forgot how old you were when you entered the pods. 35? 40? Or 20? You cannot recall.",
+        "text": "You forgot how old you were when you entered the pods. 35? 40? Or 20? You cannot",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "recall.",
         "auto": true,
         "delay": 0
     },
       {
         "type": "line",
-        "text": "Ugh… The light’s too bright.",
+        "text": "Ugh… The light's too bright.",
         "auto": true,
         "delay": 0
     },
@@ -67,7 +73,13 @@
     },
       {
         "type": "line",
-        "text": "The air is thick with the scent of sickly Bradford pear blossoms and the saccharine scent of honeysuckle.",
+        "text": "The air is thick with the scent of sickly Bradford pear blossoms and the saccharine",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "scent of honeysuckle.",
         "auto": true,
         "delay": 0
     },
@@ -79,7 +91,13 @@
     },
       {
         "type": "line",
-        "text": "English ivy covered the trees, slowly enwrapping the ground and logs with a tight suffocating embrace.",
+        "text": "English ivy covered the trees, slowly enwrapping the ground and logs with a tight",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "suffocating embrace.",
         "auto": true,
         "delay": 0
     },
@@ -91,13 +109,25 @@
     },
       {
         "type": "line",
-        "text": "There’s a newspaper thrown on the ground, muddied and broken by years of wear and tear",
+        "text": "There's a newspaper thrown on the ground, muddied and broken by years of wear and",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "tear",
         "auto": true,
         "delay": 0
     },
       {
         "type": "line",
-        "text": "Your eyes catch a quick flashing motion, you see something scurrying across the ground of the forest.",
+        "text": "Your eyes catch a quick flashing motion, you see something scurrying across the",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "ground of the forest.",
         "auto": true,
         "delay": 0
     },
@@ -143,13 +173,14 @@
         "auto": true,
         "delay": 0
     },
-     {"type": "line",
+    {
+     "type": "line",
         "text": "Do you:",
         "auto": true,
         "delay": 0
     },
-    
     {
         "type": "input",
-        "options": [["Pick up the newspaper", "A1"], ["Go Check Your Pod For Oddities", "B1"]]
-
+        "options": [["Pick up the newspaper", "lines/A1"], ["Go Check Your Pod For Oddities", "lines/B1"]]
+    }
+]
