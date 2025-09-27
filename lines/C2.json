@@ -1,3 +1,4 @@
+[
 {
         "type": "line",
         "text": "The pond.",
@@ -26,4 +27,5 @@
 {
         "type": "input",
         "options": [["Rest peacefully", "C3.json"], ["Stay alert and  continue on", "D1.json"]]
-    },
+    }
+]
