@@ -1,0 +1,92 @@
+[
+    {
+        "type": "line",
+        "text": "You didn’t know that much about anything at first.",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "But as the days passed, your memories began to return, bit by bit.",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "Of course, you still don’t know who you are.",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "But at least, you know what you can do.",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "That scanner has been buzzing for hours straight.",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "It was the only constant sound.",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "Until it wasn’t.",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "Footsteps. Perfectly in sync with yours.",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "Stopping when you stop, starting when you start.",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "You shine your scanner light across the tunnels.",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "You see shadows moving. Shifting.",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "On the ground ahead lies an object you swear wasn’t there before.",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "A cracked AI chip, dried blood staining its green edges.",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "You take it into your hands as the hummer whirrs angrily.",
+        "auto": true,
+        "delay": 0
+    }
+
+
+  {
+        "type": "input",
+        "options": [["You go in", "F5.json"]]
+    }
+]
