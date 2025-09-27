@@ -1,0 +1,108 @@
+{
+        "type": "line",
+        "text": "Ahhh.",
+        "auto": true,
+        "delay": 0
+    },
+{
+        "type": "line",
+        "text": "Wait.",
+        "auto": true,
+        "delay": 0
+    },
+{
+        "type": "line",
+        "text": "No.",
+        "auto": true,
+        "delay": 0
+    },
+{
+        "type": "line",
+        "text": "AGHAWAGHHGH!.",
+        "auto": true,
+        "delay": 0
+    },
+{
+        "type": "line",
+        "text": "What is that thing!",
+        "auto": true,
+        "delay": 0
+    },
+{
+        "type": "line",
+        "text": "Its hands are grabbing yours, dragging you into the water.",
+        "auto": true,
+        "delay": 0
+    },
+{
+        "type": "line",
+        "text": "You try to struggle out but it only tightens its grip.",
+        "auto": true,
+        "delay": 0
+    },
+{
+        "type": "line",
+        "text": "Nononononononono",
+        "auto": true,
+        "delay": 0
+    },
+{
+        "type": "line",
+        "text": "NOOOOOOOOOOOOOOOO",
+        "auto": true,
+        "delay": 0
+    },
+{
+        "type": "line",
+        "text": "Your arm turns white while you thrash violently underwater.",
+        "auto": true,
+        "delay": 0
+    },
+{
+        "type": "line",
+        "text": "There’s no use.",
+        "auto": true,
+        "delay": 0
+    },
+{
+        "type": "line",
+        "text": "It’s already got you.",
+        "auto": true,
+        "delay": 0
+    },
+{
+        "type": "line",
+        "text": "“Gaoed niuaght” The creature mouths.",
+        "auto": true,
+        "delay": 0
+    },
+
+{
+        "type": "line",
+        "text": "Blue eyes staring into yours.",
+        "auto": true,
+        "delay": 0
+    }
+{
+        "type": "line",
+        "text": "“Laiettlao news, thiais isas foris oaur brauthern yaou kailled”",
+        "auto": true,
+        "delay": 0
+    }
+{
+        "type": "line",
+        "text": "yaou kailled",
+        "auto": true,
+        "delay": 0
+    }
+{
+        "type": "line",
+        "text": "YOU DIE",
+        "auto": true,
+        "delay": 0
+    }
+
+{
+        "type": "input",
+        "options": [["Restart", "A.json"]]
+    },
