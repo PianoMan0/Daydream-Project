@@ -33,3 +33,6 @@ class Line:
             self.current_delay += 1
             return False
         return True
+    
+    def handle_input(self) -> None:
+        return

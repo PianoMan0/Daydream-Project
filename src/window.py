@@ -12,7 +12,8 @@ class Window:
         self.window.fill(color)
     
     def handle_event(self, e):
-        self.textarea.draw_most_recent_line()
+        self.textarea.handle_input()
+        self.textarea.draw_most_recent()
         self.textarea.draw()
     
     def draw(self) -> None:

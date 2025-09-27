@@ -1,5 +1,6 @@
 import pygame
 from .text import Line
+from .input import Input
 from .utils import load_lines_from_file
 
 class TextArea:
@@ -12,18 +13,27 @@ class TextArea:
         self.total_height = 0
         self.current_line = None
 
-    def draw_most_recent_line(self) -> None:
+    def draw_most_recent(self) -> None:
         lines = list(filter(lambda x: x.drawing != False, self.lines))
         if len(lines) == 0: return
         line: Line = lines[0]
-        if self.current_line != line:
-            self.extend_surf(line.surface.height)
-            self.current_line = line
-        if line.drawing != False:
-            line.draw_next()
-            self.surface.blit(line.surface, (0, self.total_height - line.surface.height))
-        else:
-            pass
+        if type(line) == Line:
+            if self.current_line != line:
+                self.extend_surf(line.surface.height)
+                self.current_line = line
+            if line.drawing != False:
+                line.draw_next()
+                self.surface.blit(line.surface, (0, self.total_height - line.surface.height))
+            else:
+                pass
+        if type(line) == Input:
+            if self.current_line != line:
+                self.extend_surf(line.surface.height)
+                self.current_line = line
+            self.surface.blit(line.draw(), (0, self.total_height - line.surface.height))
+
+    def handle_input(self):
+        if self.current_line: self.current_line.handle_input()
 
     def draw(self) -> None:
         self.window.blit(self.surface, (0, self.window.height - self.total_height))
