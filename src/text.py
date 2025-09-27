@@ -17,7 +17,7 @@ class Line:
         self.waiting = True
         self.current_delay = 0
 
-        if not self.auto: 
+        
 
     def draw_next(self):
         if self.drawing is True:
