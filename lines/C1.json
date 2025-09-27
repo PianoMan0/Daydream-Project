@@ -1,0 +1,84 @@
+[
+    {
+        "type": "line",
+        "text": "Slowly following the old raggedy highway, you walk ahead on the cracked asphalt.",
+        "auto": true,
+        "delay": 0
+    },
+  {
+        "type": "line",
+        "text": "Chills run down your spine.",
+        "auto": true,
+        "delay": 0
+    },
+  {
+        "type": "line",
+        "text": "This is dangerous, you can feel it in your bones, seeping into your skin.",
+        "auto": true,
+        "delay": 0
+    },
+  {
+        "type": "line",
+        "text": "But you continue walking forward.",
+        "auto": true,
+        "delay": 0
+    },
+  {
+        "type": "line",
+        "text": "You know the best that when you’ve decided to set on a path, you can’t walk away.",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "But it is getting tedious.",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "Maybe taking a break wouldn’t be that bad, would it.",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "Look! There’s a pond there.",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "Glittering under the sunlight like sparkling 24 karat diamonds, faint white lilypads floating softly on the surface of the pond."
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "It’s still, stagnant, perfect for a rest.",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "A rest wouldn’t hurt, would it? ",
+        "auto": true,
+        "delay": 0
+    },
+      {
+        "type": "line",
+        "text": "Resting isn’t the same as walking away.",
+        "auto": true,
+        "delay": 0
+    },
+      {
+        "type": "line",
+        "text": "A rest wouldn’t hurt, would it? ",
+        "auto": true,
+        "delay": 0
+    },
+      {
+        "type": "input",
+        "options": [["Rest near the pond", "lines/C2"], ["Continue walking down the road", "lines/D1"]]
+    }
+]
