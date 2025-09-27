@@ -1,0 +1,96 @@
+ {
+        "type": "line",
+        "text": "You kneel down, face only a few inches above the grass.",
+        "auto": true,
+        "delay": 0
+    },
+ {
+        "type": "line",
+        "text": "Grass.",
+        "auto": true,
+        "delay": 0
+    },
+ {
+        "type": "line",
+        "text": "But not quite, is it?",
+        "auto": true,
+        "delay": 0
+    },
+ {
+        "type": "line",
+        "text": "Unlike normal grass, this type doesn’t bend or flex.",
+        "auto": true,
+        "delay": 0
+    },
+ {
+        "type": "line",
+        "text": "It’s…",
+        "auto": true,
+        "delay": 0
+    },
+ {
+        "type": "line",
+        "text": "Crunchy?",
+        "auto": true,
+        "delay": 0
+    },
+
+ {
+        "type": "line",
+        "text": "But how?",
+        "auto": true,
+        "delay": 0
+    },
+ {
+        "type": "line",
+        "text": "You don’t remember being an engineer or a scientist,",
+        "auto": true,
+        "delay": 0
+    },
+ {
+        "type": "line",
+        "text": "but you definitely don’t remember this.",
+        "auto": true,
+        "delay": 0
+    },
+ {
+        "type": "line",
+        "text": "This is weird – too weird",
+        "auto": true,
+        "delay": 0
+    },
+ {
+        "type": "line",
+        "text": "Yet also fascinating.",
+        "auto": true,
+        "delay": 0
+    },
+ {
+        "type": "line",
+        "text": "On the ground, you catch a glimpse of a piece of paper.",
+        "auto": true,
+        "delay": 0
+    },
+ {
+        "type": "line",
+        "text": "Picking it up, it reads:",
+        "auto": true,
+        "delay": 0
+    },
+ {
+        "type": "line",
+        "text": "“FACTORY TERMINATION NOTICE. REPORT FOR STIPEND”",
+        "auto": true,
+        "delay": 0
+    },
+ {
+        "type": "line",
+        "text": "Do you",
+        "auto": true,
+        "delay": 0
+    },
+
+{
+        "type": "input",
+        "options": [["Follow the road", "C1.json"], ["Pick a sample of the grass for further evaluation (Puts grass into inventory)", "C1.json"]]
+    },
