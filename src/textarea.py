@@ -12,12 +12,15 @@ class TextArea:
         self.total_height = 0
         self.current_line = None
     
-    def fill(self, color) -> None:
-        self.window.fill(color)
+    # def fill(self, color) -> None:
+    #     self.window.fill(color)
 
     def draw_most_recent_line(self) -> None:
         lines = list(filter(lambda x: x[1].drawing != False, enumerate(self.lines)))
-        if len(lines) == 0: return
+        if len(lines) == 0: 
+            #something something dont repeat yourself stupid 
+            self.window.blit(self.surface, (0, self.window.height - self.total_height))
+            return
         line: Line = lines[0][1]
         index = lines[0][0]
         if self.current_line != line:
@@ -25,20 +28,13 @@ class TextArea:
             self.current_line = line
         if line.drawing != False:
             line.draw_next()
-            self.fill((255, 255, 255))
-            self.window.blit(line.surface, (0, index*self.line_height))
-            self.update((0, index*self.line_height, *line.surface.size))
+            self.surface.blit(line.surface, (0, self.total_height - line.surface.height))
         else:
             pass
+        self.window.blit(self.surface, (0, self.window.height - self.total_height))
     
     def extend_surf(self, height: int):
-        _surface = pygame.Surface((self.surface.width, self.surface.height + height))
+        _surface = pygame.Surface((self.surface.width, self.surface.height + height), pygame.SRCALPHA)
         _surface.blit(self.surface, (0, 0))
         self.surface = _surface
         self.total_height += height
-
-    def update(self, area: None = None) -> None:
-        if area is None:
-            pygame.display.update()
-        else: 
-            pygame.display.update(area)
