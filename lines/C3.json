@@ -1,3 +1,4 @@
+[
 {
         "type": "line",
         "text": "Ahhh.",
@@ -105,4 +106,5 @@
 {
         "type": "input",
         "options": [["Restart", "A.json"]]
-    },
+    }
+]
