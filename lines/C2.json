@@ -1,24 +1,18 @@
 {
         "type": "line",
-        "text": "The pond",
+        "text": "The pond.",
         "auto": true,
         "delay": 0
     },
 {
         "type": "line",
-        "text": "Perfect",
+        "text": "Perfect.",
         "auto": true,
         "delay": 0
     },
 {
         "type": "line",
-        "text": "Soft marshes are so restful",
-        "auto": true,
-        "delay": 0
-    },
-{
-        "type": "line",
-        "text": "Soft marshes are so restful",
+        "text": "Soft marshes are so restful.",
         "auto": true,
         "delay": 0
     },
