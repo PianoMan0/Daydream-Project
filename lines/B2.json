@@ -1,4 +1,5 @@
- {
+[
+{
         "type": "line",
         "text": "You kneel down, face only a few inches above the grass.",
         "auto": true,
@@ -94,3 +95,4 @@
         "type": "input",
         "options": [["Follow the road", "C1.json"], ["Pick a sample of the grass for further evaluation (Puts grass into inventory)", "C1.json"]]
     }
+]
