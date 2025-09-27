@@ -1,16 +1,13 @@
 import pygame
 from .text import Line
+from .utils import load_lines_from_txt
 
 class Window:
     def __init__(self, size: tuple[int, int]) -> None:
         self.window = pygame.display.set_mode(size, flags=pygame.SRCALPHA)
         self.font_size = 20
         self.line_height = 20
-        self.lines = [
-            Line("this is a test"),
-            Line("this is a test"),
-            Line("this is a test")
-        ]
+        self.lines = load_lines_from_txt("lines.txt")
     
     def fill(self, color) -> None:
         self.window.fill(color)
