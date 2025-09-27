@@ -10,6 +10,7 @@ class TextArea:
         self.line_height = 20
         self.lines = load_lines_from_file("lines.json")
         self.total_height = 0
+        self.current_line = None
     
     def fill(self, color) -> None:
         self.window.fill(color)
@@ -19,8 +20,9 @@ class TextArea:
         if len(lines) == 0: return
         line: Line = lines[0][1]
         index = lines[0][0]
-        if self.surface.height < self.total_height + line.surface.height:
+        if self.current_line != line:
             self.extend_surf(line.surface.height)
+            self.current_line = line
         if line.drawing != False:
             line.draw_next()
             self.fill((255, 255, 255))
