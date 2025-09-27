@@ -1,0 +1,156 @@
+[
+    {
+        "type": "line",
+        "text": "The city is ginormous but almost completely retaken by nature,",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "so much that you can't tell what city this is in.",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "Skyscrapers line the sky, beautiful, tall, and majestic.",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "The pavement is broken, covered in an unknown type of feces,",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "completely twisted brown.",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "The deeper you go, the more futuristic the city becomes.",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "Screens line the buildings and shattered office towers.",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "Everything is in rocky gray shambles, wires exposed to the elements.",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "Robotic limbs lie scattered on the ground, parts missing.",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "Sharpie marks are spread thinly over everything electronic.",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "You bend down to look at a better protected robot.",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "On it, it says:",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "\"JOB TAKER\"",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "\"GO BACK TO WHENCE YOU CAME YOU MONSTERS\"",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "\"FUCKING CLANKERS\"",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "Your scanner starts humming VIOLENTLY.",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "It whirrs as if excited, like a puppy.",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "You walk forward as the scanner continues to whirr.",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "You reach a metal building.",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "Despite the devastation around you, this building is still intact,",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "though heavily graffitied.",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "There are dents in the doors and signs of attempted entry.",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "Guns lie in puddles and along the cracked concrete.",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "You slowly walk toward the doors.",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "They swing open, surprising you immensely.",
+        "auto": true,
+        "delay": 0
+    },
+{
+        "type": "input",
+        "options": [["You walk in", "F3.json"]]
+    }
+]
