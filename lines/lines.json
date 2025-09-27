@@ -143,7 +143,7 @@
         "auto": true,
         "delay": 0
     },
-     "type": "line",
+     {"type": "line",
         "text": "Do you:",
         "auto": true,
         "delay": 0
