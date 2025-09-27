@@ -34,5 +34,5 @@ class Line:
             return False
         return True
     
-    def handle_input(self) -> None:
+    def handle_event(self, event) -> None:
         return

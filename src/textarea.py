@@ -9,7 +9,7 @@ class TextArea:
         self.surface = pygame.Surface((width, 0), flags=pygame.SRCALPHA)
         self.font_size = 20
         self.line_height = 20
-        self.lines = load_lines_from_file("lines.json")
+        self.lines = load_lines_from_file("lines/lines.json")
         self.total_height = 0
         self.current_line = None
 
@@ -30,10 +30,14 @@ class TextArea:
             if self.current_line != line:
                 self.extend_surf(line.surface.height)
                 self.current_line = line
-            self.surface.blit(line.draw(), (0, self.total_height - line.surface.height))
+            if line.waiting:
+                self.surface.blit(line.draw(), (0, self.total_height - line.surface.height))
+            else:
+                self.lines = load_lines_from_file(line.file)
+                line.drawing = False
 
-    def handle_input(self):
-        if self.current_line: self.current_line.handle_input()
+    def handle_event(self, event):
+        if self.current_line: self.current_line.handle_event(event)
 
     def draw(self) -> None:
         self.window.blit(self.surface, (0, self.window.height - self.total_height))

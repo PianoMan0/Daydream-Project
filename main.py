@@ -16,7 +16,8 @@ while True:
         if event.type == pygame.QUIT:
             pygame.quit()
             quit()
-    window.handle_event(None)
+        window.handle_event(event)
+    window.draw()
     window.update()
 
 

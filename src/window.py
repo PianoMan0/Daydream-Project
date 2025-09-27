@@ -11,12 +11,11 @@ class Window:
     def fill(self, color) -> None:
         self.window.fill(color)
     
-    def handle_event(self, e):
-        self.textarea.handle_input()
-        self.textarea.draw_most_recent()
-        self.textarea.draw()
+    def handle_event(self, event):
+        self.textarea.handle_event(event)
     
     def draw(self) -> None:
+        self.textarea.draw_most_recent()
         self.textarea.draw()
 
     def update(self, area: None = None) -> None:

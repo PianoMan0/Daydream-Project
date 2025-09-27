@@ -14,6 +14,7 @@ class Input:
         self.textsurf = pygame.Surface((640, 0), pygame.SRCALPHA)
         self.height = 0
         self.drawing = True
+        self.waiting = True
         self.selected = 0
         for line in self.options:
             chars = f"> {line[0]}"
@@ -31,9 +32,18 @@ class Input:
         self.surface = _surface
 
     def draw(self):
+        pygame.draw.rect(self.surface, (255, 255, 255), (0, self.selected*28 + 4, 10, 20))
         self.surface.blit(self.textsurf, (0, 0))
         return self.surface
 
-    def handle_input(self, event) -> None:
-        self.surface.fill(Palette.background)
-        if event.key
+    def handle_event(self, event) -> None:
+        if event is None: return
+        if event.type == pygame.KEYDOWN:
+            self.surface.fill(Palette.background)
+            if event.key == pygame.K_UP:
+                self.selected = max(self.selected - 1, 0)
+            if event.key == pygame.K_DOWN:
+                self.selected = min(self.selected + 1, len(self.options) - 1)
+            if event.key == pygame.K_RETURN:
+                self.waiting = False
+                self.file = self.options[self.selected][1]
