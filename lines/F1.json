@@ -192,6 +192,10 @@
         "text": "b): go back (E3)",
         "auto": true,
         "delay": 0
+    },
+    {
+        "type": "input",
+        "options": [["Continue on", "F2.json"], ["Go back", "E3.json"]]
     }
 
 ]
