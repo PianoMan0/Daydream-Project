@@ -1,0 +1,192 @@
+[
+{
+        "type": "line",
+        "text": "You choose to venture north.",
+        "auto": true,
+        "delay": 0
+    },
+  {
+        "type": "line",
+        "text": "Deeper into the metro tunnels.",
+        "auto": true,
+        "delay": 0
+    },
+  {
+        "type": "line",
+        "text": "You can feel more pairs of eyes on you.",
+        "auto": true,
+        "delay": 0
+    },
+  {
+        "type": "line",
+        "text": "You could never catch them though.",
+        "auto": true,
+        "delay": 0
+    },
+  {
+        "type": "line",
+        "text": "The scanner hummed louder and louder,",
+        "auto": true,
+        "delay": 0
+    },
+  {
+        "type": "line",
+        "text": "eventually drowning out your own thoughts.",
+        "auto": true,
+        "delay": 0
+    },
+  {
+        "type": "line",
+        "text": "But without thoughts,",
+        "auto": true,
+        "delay": 0
+    },
+  {
+        "type": "line",
+        "text": "there's just primal, instinctive fear.",
+        "auto": true,
+        "delay": 0
+    },
+  {
+        "type": "line",
+        "text": "Terrified wasn’t enough to describe",
+        "auto": true,
+        "delay": 0
+    },
+  {
+        "type": "line",
+        "text": "what was going on right now in your head.",
+        "auto": true,
+        "delay": 0
+    },
+  {
+        "type": "line",
+        "text": "But you could never turn back.",
+        "auto": true,
+        "delay": 0
+    },
+  {
+        "type": "line",
+        "text": "SMACK.",
+        "auto": true,
+        "delay": 0
+    },
+  {
+        "type": "line",
+        "text": "You trip and sprawl, crashing onto the scanner.",
+        "auto": true,
+        "delay": 0
+    },
+  {
+        "type": "line",
+        "text": "Heart racing, you check the device: still intact.",
+        "auto": true,
+        "delay": 0
+    },
+  {
+        "type": "line",
+        "text": "What tripped you?",
+        "auto": true,
+        "delay": 0
+    },
+  {
+        "type": "line",
+        "text": "A leather-bound book, half-rotted, stamped:",
+        "auto": true,
+        "delay": 0
+    },
+  {
+        "type": "line",
+        "text": "Property of Elijah Skillet.",
+        "auto": true,
+        "delay": 0
+    },
+  {
+        "type": "line",
+        "text": "Most pages are gnawed and waterlogged,",
+        "auto": true,
+        "delay": 0
+    },
+  {
+        "type": "line",
+        "text": "but one entry remains:",
+        "auto": true,
+        "delay": 0
+    },
+  {
+        "type": "line",
+        "text": "“09/23: Jon told me daddy was laid off today.",
+        "auto": true,
+        "delay": 0
+    },
+  {
+        "type": "line",
+        "text": "Big bro Jon said the clankers replaced him at the factory.",
+        "auto": true,
+        "delay": 0
+    },
+  {
+        "type": "line",
+        "text": "I’m scared.",
+        "auto": true,
+        "delay": 0
+    },
+  {
+        "type": "line",
+        "text": "Jon says he’ll fight the bots.”",
+        "auto": true,
+        "delay": 0
+    },
+  {
+        "type": "line",
+        "text": "Tucked inside the ruined journal:",
+        "auto": true,
+        "delay": 0
+    },
+  {
+        "type": "line",
+        "text": "a charred pamphlet, a forum printout,",
+        "auto": true,
+        "delay": 0
+    },
+  {
+        "type": "line",
+        "text": "and something cold and smooth tucked between the pages.",
+        "auto": true,
+        "delay": 0
+    },
+
+  {
+        "type": "line",
+        "text": "Pulling it out, you realized it was an engraved chip.",
+        "auto": true,
+        "delay": 0
+    },
+  {
+        "type": "line",
+        "text": "The scanner starts beeping wildly around the sheet.",
+        "auto": true,
+        "delay": 0
+    },
+
+  {
+        "type": "line",
+        "text": "Do you:",
+        "auto": true,
+        "delay": 0
+    },
+  
+  # So here in E2 it's like inventory code and I don't know how to do that so pls help Taggie.
+  
+    {
+        "type": "line",
+        "text": "You have made your decision. You head out again.",
+        "auto": true,
+        "delay": 0
+    }
+  
+
+
+
+
+]
