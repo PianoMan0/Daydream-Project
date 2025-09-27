@@ -17,14 +17,26 @@ class Line:
         self.waiting = True
         self.current_delay = 0
 
-        
+        self.punctuation_delay = 0
+        self.can_blit = True
 
     def draw_next(self):
         if self.drawing is True:
-            char = font.render(self.text[self.character_index], True, Palette.text)
-            self.surface.blit(char, (self.current_x, 0))
+            if self.can_blit:
+                char = font.render(self.text[self.character_index], True, Palette.text)
+                self.surface.blit(char, (self.current_x, 0))
+                self.current_x += char.width
+        if self.text[self.character_index] in [".", ",", ";"]:
+            if self.punctuation_delay < 3:
+                self.can_blit = False
+                self.punctuation_delay += 1
+            else:
+                self.can_blit = True
+                self.punctuation_delay = 0
+                self.character_index += 1
+        else: 
+            self.can_blit = True
             self.character_index += 1
-            self.current_x += char.width
         if self.character_index >= len(self.text): self.drawing = None
         if self.drawing is None:
             if self.auto:
