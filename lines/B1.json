@@ -1,3 +1,4 @@
+[
 {
         "type": "line",
         "text": "You go check the pod.",
@@ -104,7 +105,7 @@
         "type": "input",
         "options": [["Follow the road", "file_to_go_to"], ["Analyze the grass", "file2_to_go_to"]]
     }
-
+]
 
 
 
