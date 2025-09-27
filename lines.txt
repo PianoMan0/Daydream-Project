@@ -1,2 +1,4 @@
 this is a line
 this is also a line
+line 3
+and this is line 4
