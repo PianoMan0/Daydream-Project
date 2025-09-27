@@ -1,143 +1,70 @@
 [
-{
-        "type": "line",
-        "text": "You’ve been wandering in the metro station ",
-        "auto": true,
-        "delay": 0
+    {
+        "type": "add_item",
+        "item": "stipend"
     },
-  {
+    {
         "type": "line",
-        "text": "for a while now.",
-        "auto": true,
-        "delay": 0
-    },
-  {
-        "type": "line",
-        "text": "For the time you were frozen,  ",
-        "auto": true,
-        "delay": 0
-    },
-  {
-        "type": "line",
-        "text": "it had changed from familiar to foreign.",
-        "auto": true,
-        "delay": 0
-    },
-  {
-        "type": "line",
-        "text": "There was no chatter, no screens, no roaring hovertrains.",
-        "auto": true,
-        "delay": 0
-    },
-  {
-        "type": "line",
-        "text": "You have been camping out in the metro",
-        "auto": true,
-        "delay": 0
-    },
-  {
-        "type": "line",
-        "text": "for weeks",
-        "auto": true,
-        "delay": 0
-    },
-  {
-        "type": "line",
-        "text": "scavenging above for food.",
-        "auto": true,
-        "delay": 0
-    },
-  {
-        "type": "line",
-        "text": "Anything that looked remotely edible.",
+        "text": "You pick up the golden sparkle.",
         "auto": true,
         "delay": 0
     },
     {
         "type": "line",
-        "text": "You felt a pair of eyes on you,",
+        "text": "It's nothing too special",
         "auto": true,
         "delay": 0
     },
-
     {
         "type": "line",
-        "text": "whether you were looking for water, picking berries, ",
+        "text": "Rectangularly shaped, (Why is everything rectangular?), slightly glinting",
         "auto": true,
         "delay": 0
     },
-
     {
         "type": "line",
-        "text": "or hunting cats.",
+        "text": " under the sun. A barcode was visible but you're not a barcode scanner, are you?",
         "auto": true,
         "delay": 0
     },
-
     {
         "type": "line",
-        "text": "There was always something looking. A slight prickle.",
+        "text": "You pull out the scanner. The electronic reader hummed as you swung it over the card.",
         "auto": true,
         "delay": 0
     },
-
     {
         "type": "line",
-        "text": "But every time you looked,",
+        "text": "\"500 CREDITS FOR A MONTHLY STIPEND.” The device read out loud, \"VALID UNTIL REVOKED.”",
         "auto": true,
-        "delay": 0
+        "delay": 12
     },
-
     {
         "type": "line",
-        "text": "all there was smudged graffiti and checkered tile.",
+        "text": "Weird.",
         "auto": true,
-        "delay": 0
+        "delay": 12
     },
-
     {
         "type": "line",
-        "text": "The metro had been your base, somewhere safe.",
+        "text": "But as you were deep in thought, the tint of blue eyes glinted under the sunlight,",
         "auto": true,
         "delay": 0
     },
-      {
+    {
         "type": "line",
-        "text": "But you still couldn’t shake off that feeling of eeriness.",
+        "text": "staring hungrily at the device in your hands.",
         "auto": true,
         "delay": 0
     },
-      {
+    {
         "type": "line",
-        "text": "The scanner had been humming every time you ventured north,",
+        "text": "Yet you notice nothing, instead deciding to go to the main road.",
         "auto": true,
         "delay": 0
     },
-      {
-        "type": "line",
-        "text": "but as you walked forward, your goosebumps",
-        "auto": true,
-        "delay": 0
-    },
-        {
-        "type": "line",
-        "text": "would only rise higher,",
-        "auto": true,
-        "delay": 0
-    },
-        {
-        "type": "line",
-        "text": "almost bursting out of your skin.",
-        "auto": true,
-        "delay": 0
+    {
+        "type": "redirect",
+        "file": "E1.json"
     }
-  
-{
-        "type": "input",
-        "options": [["Leave the metro", "F1.json"], ["Venture north", "E2.json"]]
-    }
-
-
-
-  
 ]

@@ -13,7 +13,7 @@ class Inventory:
         return len(self.items) > 5
 
     def add_item(self, item: str) -> None:
-        self.items += item
+        self.items.append(item)
     
     def remove_item(self, item: str) -> None:
         if item in self.items:
@@ -21,14 +21,16 @@ class Inventory:
     
     def draw(self) -> None:
         self.surface.fill(Palette.text)
-        text = font.render(" ".join(self.items), True, Palette.background)
+        text = font.render("   ".join(self.items), True, Palette.background)
         self.surface.blit(text, (0, 2))
         return self.surface
 
 class AddItem:
     def __init__(self, data):
+        self.drawing = True
         self.item = data["item"]
 
 class RemoveItem:
     def __init__(self, data):
+        self.drawing = True
         self.item = data["item"]

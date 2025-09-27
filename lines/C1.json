@@ -25,7 +25,7 @@
     },
   {
         "type": "line",
-        "text": "You know the best that when you’ve decided to set on a path, you can’t walk away.",
+        "text": "You know the best that when you've decided to set on a path, you can't walk away.",
         "auto": true,
         "delay": 0
     },
@@ -37,48 +37,48 @@
     },
     {
         "type": "line",
-        "text": "Maybe taking a break wouldn’t be that bad, would it.",
+        "text": "Maybe taking a break wouldn't be that bad, would it.",
         "auto": true,
         "delay": 0
     },
     {
         "type": "line",
-        "text": "Look! There’s a pond there.",
+        "text": "Look! There's a pond there.",
         "auto": true,
         "delay": 0
     },
     {
         "type": "line",
-        "text": "Glittering under the sunlight like sparkling 24 karat diamonds, faint white lilypads floating softly on the surface of the pond."
+        "text": "Glittering under the sunlight like sparkling 24 karat diamonds, faint white lilypads floating softly on the surface of the pond.",
         "auto": true,
         "delay": 0
     },
     {
         "type": "line",
-        "text": "It’s still, stagnant, perfect for a rest.",
+        "text": "It's still, stagnant, perfect for a rest.",
         "auto": true,
         "delay": 0
     },
     {
         "type": "line",
-        "text": "A rest wouldn’t hurt, would it? ",
+        "text": "A rest wouldn't hurt, would it? ",
         "auto": true,
         "delay": 0
     },
       {
         "type": "line",
-        "text": "Resting isn’t the same as walking away.",
+        "text": "Resting isn't the same as walking away.",
         "auto": true,
         "delay": 0
     },
       {
         "type": "line",
-        "text": "A rest wouldn’t hurt, would it? ",
+        "text": "A rest wouldn't hurt, would it? ",
         "auto": true,
         "delay": 0
     },
       {
         "type": "input",
-        "options": [["Rest near the pond", "lines/C2"], ["Continue walking down the road", "lines/D1"]]
+        "options": [["Rest near the pond", "lines/C2.json"], ["Continue walking down the road", "lines/D1.json"]]
     }
 ]

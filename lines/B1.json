@@ -7,7 +7,7 @@
     },
 {
         "type": "line",
-        "text": "It’s nothing too special. Sci-fi depicted it perfectly.",
+        "text": "It's nothing too special. Sci-fi depicted it perfectly.",
         "auto": true,
         "delay": 0
     },
@@ -43,13 +43,13 @@
     },
 {
         "type": "line",
-        "text": "There’s nothing out of the ordinary.",
+        "text": "There's nothing out of the ordinary.",
         "auto": true,
         "delay": 0
     },
 {
         "type": "line",
-        "text": "Or at least, it doesn’t look like it.",
+        "text": "Or at least, it doesn't look like it.",
         "auto": true,
         "delay": 0
     },
@@ -67,7 +67,7 @@
     },
 {
         "type": "line",
-        "text": "Wait. What’s that?",
+        "text": "Wait. What's that?",
         "auto": true,
         "delay": 0
     },
@@ -103,7 +103,7 @@
     },
 {
         "type": "input",
-        "options": [["Follow the road", "file_to_go_to"], ["Analyze the grass", "file2_to_go_to"]]
+        "options": [["Follow the road", "lines/C1.json"], ["Analyze the grass", "lines/B2.json"]]
     }
 ]
 

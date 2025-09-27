@@ -13,8 +13,8 @@ class Input:
         self.surface.fill((255, 0, 0))
         self.textsurf = pygame.Surface((800, 0), pygame.SRCALPHA)
         self.height = 0
-        self.drawing = True
         self.waiting = True
+        self.drawing = True
         self.selected = 0
         for line in self.options:
             chars = f"> {line[0]}"

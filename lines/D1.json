@@ -19,13 +19,13 @@
     },
       {
         "type": "line",
-        "text": "But this gray wasn’t natural.",
+        "text": "But this gray wasn't natural.",
         "auto": true,
         "delay": 0
     },
       {
         "type": "line",
-        "text": "It wasn’t rock gray. Concrete gray.",
+        "text": "It wasn't rock gray. Concrete gray.",
         "auto": true,
         "delay": 0
     },
@@ -73,6 +73,6 @@
     },
     {
         "type": "input",
-        "options": [["Stop and stare at the markings", "lines/D2"], ["Walk forwards and into the metro station.", "lines/E1"]]
+        "options": [["Stop and stare at the markings", "lines/D2.json"], ["Walk forwards and into the metro station.", "lines/E1.json"]]
     }
 ]

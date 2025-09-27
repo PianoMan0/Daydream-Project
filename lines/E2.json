@@ -49,7 +49,7 @@
     },
   {
         "type": "line",
-        "text": "Terrified wasn’t enough to describe",
+        "text": "Terrified wasn't enough to describe",
         "auto": true,
         "delay": 0
     },
@@ -115,7 +115,7 @@
     },
   {
         "type": "line",
-        "text": "“09/23: Jon told me daddy was laid off today.",
+        "text": "\"09/23: Jon told me daddy was laid off today.",
         "auto": true,
         "delay": 0
     },
@@ -127,13 +127,13 @@
     },
   {
         "type": "line",
-        "text": "I’m scared.",
+        "text": "I'm scared.",
         "auto": true,
         "delay": 0
     },
   {
         "type": "line",
-        "text": "Jon says he’ll fight the bots.”",
+        "text": "Jon says he'll fight the bots.”",
         "auto": true,
         "delay": 0
     },

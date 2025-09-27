@@ -17,7 +17,7 @@ class TextArea:
         self.inventory = Inventory()
 
     def draw_most_recent(self) -> None:
-        lines = list(filter(lambda x: x.waiting != False, self.lines))
+        lines = list(filter(lambda x: x.drawing != False, self.lines))
         if len(lines) == 0: return
         line: Line = lines[0]
         if type(line) == Line:
@@ -42,10 +42,13 @@ class TextArea:
             self.inventory.add_item(line.item)
             if self.inventory.check_dead():
                 self.lines = load_lines_from_file("lines/dead.json")
+            line.drawing = False
         if type(line) == RemoveItem:
             self.inventory.remove_item(line.item)
+            line.drawing = False
         if type(line) == Redirect:
             self.lines = load_lines_from_file(line.file)
+            line.drawing = False
 
     def handle_event(self, event):
         if self.current_line: self.current_line.handle_event(event)

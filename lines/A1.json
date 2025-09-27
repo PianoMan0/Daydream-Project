@@ -1,5 +1,9 @@
 [
-{
+    {
+        "type": "add_item",
+        "item": "newspaper"
+    },
+    {
         "type": "line",
         "text": "You choose to pick up the newspaper",
         "auto": true,
@@ -41,12 +45,12 @@
         "delay": 0
     },{
         "type": "line",
-        "text": "perhaps we’ll finally reach the future President Woodward has been preaching about.",
+        "text": "perhaps we'll finally reach the future President Woodward has been preaching about.",
         "auto": true,
         "delay": 0
     },{
         "type": "line",
-        "text": "There’s nothing else on the paper,",
+        "text": "There's nothing else on the paper,",
         "auto": true,
         "delay": 0
     },{
@@ -85,15 +89,15 @@
         "text": "WH[]T A[]OUT US?",
         "auto": true,
         "delay": 0
-    }
+    },
 {
         "type": "line",
         "text": "Do you?",
         "auto": true,
         "delay": 0
-    }
+    },
 {
         "type": "input",
-        "options": [["Go to the pod to search for oddities", "B1.json"]]
+        "options": [["Go to the pod to search for oddities", "lines/B1.json"]]
     }
 ]

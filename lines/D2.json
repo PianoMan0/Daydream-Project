@@ -25,25 +25,25 @@
     },
 {
         "type": "line",
-        "text": "“NO MORE CLANKERS.”",
+        "text": "\"NO MORE CLANKERS.”",
         "auto": true,
         "delay": 0
     },
 {
         "type": "line",
-        "text": "“WE WERE NEVER OBSOLETE”",
+        "text": "\"WE WERE NEVER OBSOLETE”",
         "auto": true,
         "delay": 0
     },
 {
         "type": "line",
-        "text": "“FOR THE SKILLETS!”",
+        "text": "\"FOR THE SKILLETS!”",
         "auto": true,
         "delay": 0
     },
 {
         "type": "line",
-        "text": "“THE ELITES HAVE GOT TO GO!”",
+        "text": "\"THE ELITES HAVE GOT TO GO!”",
         "auto": true,
         "delay": 0
     },
@@ -59,9 +59,9 @@
         "text": "Do you:",
         "auto": true,
         "delay": 0
-    }
+    },
 {
         "type": "input",
-        "options": [["Pick it up", "D3.json"], ["Go to the metro station (Restricts decisions)", "E1.json"]]
+        "options": [["Pick it up", "lines/D3.json"], ["Go to the metro station (Restricts decisions)", "lines/E1.json"]]
     }
 ]

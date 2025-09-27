@@ -19,13 +19,13 @@
     },
  {
         "type": "line",
-        "text": "Unlike normal grass, this type doesn’t bend or flex.",
+        "text": "Unlike normal grass, this type doesn't bend or flex.",
         "auto": true,
         "delay": 0
     },
  {
         "type": "line",
-        "text": "It’s…",
+        "text": "It's…",
         "auto": true,
         "delay": 0
     },
@@ -44,13 +44,13 @@
     },
  {
         "type": "line",
-        "text": "You don’t remember being an engineer or a scientist,",
+        "text": "You don't remember being an engineer or a scientist,",
         "auto": true,
         "delay": 0
     },
  {
         "type": "line",
-        "text": "but you definitely don’t remember this.",
+        "text": "but you definitely don't remember this.",
         "auto": true,
         "delay": 0
     },
@@ -80,7 +80,7 @@
     },
  {
         "type": "line",
-        "text": "“FACTORY TERMINATION NOTICE. REPORT FOR STIPEND”",
+        "text": "\"FACTORY TERMINATION NOTICE. REPORT FOR STIPEND”",
         "auto": true,
         "delay": 0
     },
@@ -93,6 +93,6 @@
 
 {
         "type": "input",
-        "options": [["Follow the road", "C1.json"], ["Pick a sample of the grass for further evaluation (Puts grass into inventory)", "C1.json"]]
+        "options": [["Follow the road", "lines/C1.json"], ["Pick a sample of the grass for further evaluation (Puts grass into inventory)", "lines/C1_inventory.json"]]
     }
 ]

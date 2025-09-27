@@ -1,0 +1,10 @@
+[
+    {
+        "type": "add_item",
+        "item": "grass"
+    },
+    {
+        "type": "redirect",
+        "file": "lines/C1.json"
+    }
+]

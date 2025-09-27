@@ -20,5 +20,4 @@ while True:
     window.draw()
     window.update()
 
-
-    clock.tick(20)
+    clock.tick(0)

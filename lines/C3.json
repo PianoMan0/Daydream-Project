@@ -61,19 +61,19 @@
     },
 {
         "type": "line",
-        "text": "There’s no use.",
+        "text": "There's no use.",
         "auto": true,
         "delay": 0
     },
 {
         "type": "line",
-        "text": "It’s already got you.",
+        "text": "It's already got you.",
         "auto": true,
         "delay": 0
     },
 {
         "type": "line",
-        "text": "“Gaoed niuaght” The creature mouths.",
+        "text": "\"Gaoed niuaght” The creature mouths.",
         "auto": true,
         "delay": 0
     },
@@ -83,28 +83,28 @@
         "text": "Blue eyes staring into yours.",
         "auto": true,
         "delay": 0
-    }
+    },
 {
         "type": "line",
-        "text": "“Laiettlao news, thiais isas foris oaur brauthern yaou kailled”",
+        "text": "\"Laiettlao news, thiais isas foris oaur brauthern yaou kailled”",
         "auto": true,
         "delay": 0
-    }
+    },
 {
         "type": "line",
         "text": "yaou kailled",
         "auto": true,
         "delay": 0
-    }
+    },
 {
         "type": "line",
         "text": "YOU DIE",
         "auto": true,
         "delay": 0
-    }
+    },
 
 {
         "type": "input",
-        "options": [["Restart", "A.json"]]
+        "options": [["Restart", "lines/A.json"]]
     }
 ]
