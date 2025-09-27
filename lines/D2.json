@@ -1,0 +1,65 @@
+{
+        "type": "line",
+        "text": "You decided to take a look at the graffiti",
+        "auto": true,
+        "delay": 0
+    },
+{
+        "type": "line",
+        "text": "Flecks of paint were missing from the walls.",
+        "auto": true,
+        "delay": 0
+    },
+{
+        "type": "line",
+        "text": "In a waterfall of green, blue, and red",
+        "auto": true,
+        "delay": 0
+    },
+{
+        "type": "line",
+        "text": "you see that on the wall it says",
+        "auto": true,
+        "delay": 0
+    },
+{
+        "type": "line",
+        "text": "“NO MORE CLANKERS.”",
+        "auto": true,
+        "delay": 0
+    },
+{
+        "type": "line",
+        "text": "“WE WERE NEVER OBSOLETE”",
+        "auto": true,
+        "delay": 0
+    },
+{
+        "type": "line",
+        "text": "“FOR THE SKILLETS!”",
+        "auto": true,
+        "delay": 0
+    },
+{
+        "type": "line",
+        "text": "“THE ELITES HAVE GOT TO GO!”",
+        "auto": true,
+        "delay": 0
+    },
+{
+        "type": "line",
+        "text": "On the ground, you see the glint of something gold.",
+        "auto": true,
+        "delay": 0
+    },
+
+{
+        "type": "line",
+        "text": "Do you:",
+        "auto": true,
+        "delay": 0
+    }
+{
+        "type": "input",
+        "options": [["Pick it up", "D3.json"], ["Go to the metro station (Restricts decisions)", "E1.json"]]
+    }
