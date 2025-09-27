@@ -1,14 +1,54 @@
 [
     {
         "type": "line",
-        "text": "this is a line",
+        "text": "You are a person, waking up thousands of years after your original cryostasis",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "2025.",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "It is up to you to find out what happened in the past,",
+        "auto": true,
+        "delay": 0
+    },
+       {
+        "type": "line",
+        "text": " and why humanity seems to be destroyed.",
+        "auto": true,
+        "delay": 0
+    },
+       {
+        "type": "line",
+        "text": "You wake up in a green forest, with glowing fauna and debris scattered around.",
+        "auto": true,
+        "delay": 0
+    },
+       {
+        "type": "line",
+        "text": "Your pod is shattered. By what, you do not know.",
         "auto": true,
         "delay": 0
     },
     {
         "type": "input",
-        "options": [
-            ["input 1", "lines/lines2.json"], ["input 2", "lines/lines3.json"]
-        ]
+        "options": [["input 1", "file_to_go_to"], ["input 2", "file2_to_go_to"]]
+    },
+    {
+        "type": "line",
+        "text": "line 3",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "and this is line 4",
+        "auto": true,
+        "delay": 0
     }
 ]

@@ -6,7 +6,7 @@ pygame.font.init()
 
 from src.window import Window
 
-window = Window((640, 480))
+window = Window((800, 600))
 
 clock = pygame.Clock()
 
@@ -21,4 +21,4 @@ while True:
     window.update()
 
 
-    clock.tick(0)
+    clock.tick(20)
