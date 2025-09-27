@@ -94,4 +94,4 @@
 {
         "type": "input",
         "options": [["Go to the pod to search for oddities", "B1.json"]]
-    },
+    }
