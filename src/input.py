@@ -9,9 +9,9 @@ class Input:
     def __init__(self, data) -> None:
         """ options: ["text", "file_to_change_to"]"""
         self.options = data["options"]
-        self.surface = pygame.Surface((640, 0), pygame.SRCALPHA)
+        self.surface = pygame.Surface((800, 0), pygame.SRCALPHA)
         self.surface.fill((255, 0, 0))
-        self.textsurf = pygame.Surface((640, 0), pygame.SRCALPHA)
+        self.textsurf = pygame.Surface((800, 0), pygame.SRCALPHA)
         self.height = 0
         self.drawing = True
         self.waiting = True

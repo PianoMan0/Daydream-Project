@@ -1,0 +1,27 @@
+[
+    {
+        "type": "line",
+        "text": "this is a line of text. auto means it will auto proceed and delay is the amount of frames to wait",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "input",
+        "options": [
+            ["option 1", "file to redirect to"], 
+            ["option 2", "file to redirect to"]
+        ]
+    },
+    {
+        "type": "add_item",
+        "item": "item to add to the inventory"
+    },
+    {
+        "type": "remove_item",
+        "item": "item to remove from the inventory"
+    },
+    {
+        "type": "redirect",
+        "file": "file to redirect to"
+    }
+]

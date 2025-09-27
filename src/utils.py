@@ -1,5 +1,6 @@
 from .text import Line
 from .input import Input
+from .inventory import AddItem, RemoveItem
 import json
 
 def load_lines_from_file(file_name: str):
@@ -9,6 +10,10 @@ def load_lines_from_file(file_name: str):
         match line["type"]:
             case "input": _type = Input
             case "line": _type = Line
-            case _: _type = Line
+            case "add_item": _type = AddItem
+            case "remove_item": _type = RemoveItem
+            case _: 
+                print(f"Type {line['type']} not found!")
+                _type = Line
         lines.append(_type(line))
     return lines

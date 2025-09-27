@@ -181,6 +181,6 @@
     },
     {
         "type": "input",
-        "options": [["Pick up the newspaper", "lines/A1"], ["Go Check Your Pod For Oddities", "lines/B1"]]
+        "options": [["Pick up the newspaper", "lines/A1.json"], ["Go Check Your Pod For Oddities", "lines/B1.json"]]
     }
 ]

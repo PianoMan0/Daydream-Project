@@ -2,6 +2,8 @@ import pygame
 from .text import Line
 from .input import Input
 from .utils import load_lines_from_file
+from .inventory import Inventory, AddItem, RemoveItem
+from .redirect import Redirect
 
 class TextArea:
     def __init__(self, window, width: int):
@@ -9,9 +11,10 @@ class TextArea:
         self.surface = pygame.Surface((width, 0), flags=pygame.SRCALPHA)
         self.font_size = 20
         self.line_height = 20
-        self.lines = load_lines_from_file("lines/lines.json")
+        self.lines = load_lines_from_file("lines/A.json")
         self.total_height = 0
         self.current_line = None
+        self.inventory = Inventory()
 
     def draw_most_recent(self) -> None:
         lines = list(filter(lambda x: x.waiting != False, self.lines))
@@ -35,12 +38,21 @@ class TextArea:
             else:
                 self.lines = load_lines_from_file(line.file)
                 line.drawing = False
+        if type(line) == AddItem:
+            self.inventory.add_item(line.item)
+            if self.inventory.check_dead():
+                self.lines = load_lines_from_file("lines/dead.json")
+        if type(line) == RemoveItem:
+            self.inventory.remove_item(line.item)
+        if type(line) == Redirect:
+            self.lines = load_lines_from_file(line.file)
 
     def handle_event(self, event):
         if self.current_line: self.current_line.handle_event(event)
 
     def draw(self) -> None:
         self.window.blit(self.surface, (0, self.window.height - self.total_height))
+        self.window.blit(self.inventory.draw(), (0, 0))
 
     def extend_surf(self, height: int):
         _surface = pygame.Surface((self.surface.width, self.surface.height + height), pygame.SRCALPHA)
