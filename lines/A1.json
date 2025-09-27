@@ -1,3 +1,4 @@
+[
 {
         "type": "line",
         "text": "You choose to pick up the newspaper",
@@ -95,3 +96,4 @@
         "type": "input",
         "options": [["Go to the pod to search for oddities", "B1.json"]]
     }
+]
