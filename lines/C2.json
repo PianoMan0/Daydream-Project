@@ -1,0 +1,35 @@
+{
+        "type": "line",
+        "text": "The pond",
+        "auto": true,
+        "delay": 0
+    },
+{
+        "type": "line",
+        "text": "Perfect",
+        "auto": true,
+        "delay": 0
+    },
+{
+        "type": "line",
+        "text": "Soft marshes are so restful",
+        "auto": true,
+        "delay": 0
+    },
+{
+        "type": "line",
+        "text": "Soft marshes are so restful",
+        "auto": true,
+        "delay": 0
+    },
+{
+        "type": "line",
+        "text": "Do you choose to:",
+        "auto": true,
+        "delay": 0
+    },
+
+{
+        "type": "input",
+        "options": [["Rest peacefully", "C3.json"], ["Stay alert and  continue on", "D1.json"]]
+    },
