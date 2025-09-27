@@ -1,0 +1,78 @@
+[
+    {
+        "type": "line",
+        "text": "Walking on the road was easy enough.",
+        "auto": true,
+        "delay": 0
+    },
+      {
+        "type": "line",
+        "text": "But as you walk slowly away from the center of the forest, you grow uneasy.",
+        "auto": true,
+        "delay": 0
+    },
+      {
+        "type": "line",
+        "text": "The sprawling green is slowly replaced by the mundane gray.",
+        "auto": true,
+        "delay": 0
+    },
+      {
+        "type": "line",
+        "text": "But this gray wasn’t natural.",
+        "auto": true,
+        "delay": 0
+    },
+      {
+        "type": "line",
+        "text": "It wasn’t rock gray. Concrete gray.",
+        "auto": true,
+        "delay": 0
+    },
+      {
+        "type": "line",
+        "text": "Stacked together in a wall.",
+        "auto": true,
+        "delay": 0
+    },
+      {
+        "type": "line",
+        "text": "A tunnel lay ahead.",
+        "auto": true,
+        "delay": 0
+    },
+      {
+        "type": "line",
+        "text": "Odd markings, colorful markings, covered the tunnel.",
+        "auto": true,
+        "delay": 0
+    },
+        {
+        "type": "line",
+        "text": "Graffiti?",
+        "auto": true,
+        "delay": 0
+    },
+        {
+        "type": "line",
+        "text": "Perhaps",
+        "auto": true,
+        "delay": 0
+    },
+        {
+        "type": "line",
+        "text": "It took a while for you to realize, but this seemed oddly like a metro station.",
+        "auto": true,
+        "delay": 0
+    },
+        {
+        "type": "line",
+        "text": "Odd markings, colorful markings, covered the tunnel.",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "input",
+        "options": [["Stop and stare at the markings", "lines/D2"], ["Walk forwards and into the metro station.", "lines/E1"]]
+    }
+]
