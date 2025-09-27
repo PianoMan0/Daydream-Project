@@ -13,6 +13,10 @@ class Window:
     
     def handle_event(self, e):
         self.textarea.draw_most_recent_line()
+        self.textarea.draw()
+    
+    def draw(self) -> None:
+        self.textarea.draw()
 
     def update(self, area: None = None) -> None:
         if area is None:

@@ -11,16 +11,10 @@ class TextArea:
         self.lines = load_lines_from_file("lines.json")
         self.total_height = 0
         self.current_line = None
-    
-    # def fill(self, color) -> None:
-    #     self.window.fill(color)
 
     def draw_most_recent_line(self) -> None:
         lines = list(filter(lambda x: x[1].drawing != False, enumerate(self.lines)))
-        if len(lines) == 0: 
-            #something something dont repeat yourself stupid 
-            self.window.blit(self.surface, (0, self.window.height - self.total_height))
-            return
+        if len(lines) == 0: return
         line: Line = lines[0][1]
         index = lines[0][0]
         if self.current_line != line:
@@ -31,8 +25,10 @@ class TextArea:
             self.surface.blit(line.surface, (0, self.total_height - line.surface.height))
         else:
             pass
+
+    def draw(self) -> None:
         self.window.blit(self.surface, (0, self.window.height - self.total_height))
-    
+
     def extend_surf(self, height: int):
         _surface = pygame.Surface((self.surface.width, self.surface.height + height), pygame.SRCALPHA)
         _surface.blit(self.surface, (0, 0))
