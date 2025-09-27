@@ -1,1 +1,112 @@
+{
+        "type": "line",
+        "text": "You go check the pod.",
+        "auto": true,
+        "delay": 0
+    },
+{
+        "type": "line",
+        "text": "It’s nothing too special. Sci-fi depicted it perfectly.",
+        "auto": true,
+        "delay": 0
+    },
+{
+        "type": "line",
+        "text": "A transparent pod, coffin-like in shape, split in half vertically from your entrance.",
+        "auto": true,
+        "delay": 0
+    },
+{
+        "type": "line",
+        "text": "There are no glass pieces on the ground, with trees surrounding the pod as if they were guarding a tomb.",
+        "auto": true,
+        "delay": 0
+    },
+{
+        "type": "line",
+        "text": "The grass was a bluish green, a squeamish green.",
+        "auto": true,
+        "delay": 0
+    },
+{
+        "type": "line",
+        "text": "A green that made you cringe.",
+        "auto": true,
+        "delay": 0
+    },
+{
+        "type": "line",
+        "text": "You looked around the pod carefully.",
+        "auto": true,
+        "delay": 0
+    },
+{
+        "type": "line",
+        "text": "There’s nothing out of the ordinary.",
+        "auto": true,
+        "delay": 0
+    },
+{
+        "type": "line",
+        "text": "Or at least, it doesn’t look like it.",
+        "auto": true,
+        "delay": 0
+    },
+{
+        "type": "line",
+        "text": "No shards, nothing shining, no note telling you of your origins.",
+        "auto": true,
+        "delay": 0
+    },
+{
+        "type": "line",
+        "text": "Not even a clue.",
+        "auto": true,
+        "delay": 0
+    },
+{
+        "type": "line",
+        "text": "Wait. What’s that?",
+        "auto": true,
+        "delay": 0
+    },
+{
+        "type": "line",
+        "text": "A gray, rectangular prism.",
+        "auto": true,
+        "delay": 0
+    },
+{
+        "type": "line",
+        "text": "A spark of hope lights in your chest.",
+        "auto": true,
+        "delay": 0
+    },
+{
+        "type": "line",
+        "text": "You bend down to reach for the prism, you pick it up, slightly brushing the dust off of the thing.",
+        "auto": true,
+        "delay": 0
+    },
+{
+        "type": "line",
+        "text": "It was oddly similar to the barcode scanners back home.",
+        "auto": true,
+        "delay": 0
+    },
+{
+        "type": "line",
+        "text": "Perhaps a futuristic version of a scanner.",
+        "auto": true,
+        "delay": 0
+    },
+{
+        "type": "input",
+        "options": [["Follow the road", "file_to_go_to"], ["Analyze the grass", "file2_to_go_to"]]
+    },
+
+
+
+
+
 
