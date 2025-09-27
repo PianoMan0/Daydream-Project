@@ -7,6 +7,8 @@ class Window:
         self.font_size = 20
         self.line_height = 20
         self.lines = [
+            Line("this is a test"),
+            Line("this is a test"),
             Line("this is a test")
         ]
     
@@ -17,12 +19,15 @@ class Window:
         self.draw_most_recent_line()
     
     def draw_most_recent_line(self) -> None:
-        line = self.lines[-1]
+        lines = list(filter(lambda x: x[1].drawing, enumerate(self.lines)))
+        if len(lines) == 0: return
+        line = lines[0][1]
+        index = lines[0][0]
         if line.drawing:
             line.draw_next()
             self.fill((255, 255, 255))
-            self.window.blit(line.surface, (0, 0))
-            self.update()
+            self.window.blit(line.surface, (0, index*self.line_height))
+            self.update((0, index*self.line_height, *line.surface.size))
         else:
             pass
 
