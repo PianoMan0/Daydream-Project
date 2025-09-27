@@ -1,3 +1,4 @@
+[
 {
         "type": "line",
         "text": "You decided to take a look at the graffiti",
@@ -63,3 +64,4 @@
         "type": "input",
         "options": [["Pick it up", "D3.json"], ["Go to the metro station (Restricts decisions)", "E1.json"]]
     }
+]
