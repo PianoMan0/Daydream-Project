@@ -1,1 +1,97 @@
-
+{
+        "type": "line",
+        "text": "You choose to pick up the newspaper",
+        "auto": true,
+        "delay": 0
+    },{
+        "type": "line",
+        "text": "The newspaper is old and ragged,",
+        "auto": true,
+        "delay": 0
+    },{
+        "type": "line",
+        "text": "with large holes looking as if chewed by rats.",
+        "auto": true,
+        "delay": 0
+    },{
+        "type": "line",
+        "text": "Brown flecks dot the yellowed paper.",
+        "auto": true,
+        "delay": 0
+    },{
+        "type": "line",
+        "text": "It is almost unintelligible, yet for its age, oddly well preserved.",
+        "auto": true,
+        "delay": 0
+    },{
+        "type": "line",
+        "text": "On it, you can barely make out the words:",
+        "auto": true,
+        "delay": 0
+    },{
+        "type": "line",
+        "text": "ChatGPT-X: THE FUTURE OF LABOR?",
+        "auto": true,
+        "delay": 0
+    },{
+        "type": "line",
+        "text": "With the new ChatGPT version",
+        "auto": true,
+        "delay": 0
+    },{
+        "type": "line",
+        "text": "perhaps we’ll finally reach the future President Woodward has been preaching about.",
+        "auto": true,
+        "delay": 0
+    },{
+        "type": "line",
+        "text": "There’s nothing else on the paper,",
+        "auto": true,
+        "delay": 0
+    },{
+        "type": "line",
+        "text": "but as you take a closer look you see that everything else is crossed out.",
+        "auto": true,
+        "delay": 0
+    },{
+        "type": "line",
+        "text": "Only leaving one question on the bottom.",
+        "auto": true,
+        "delay": 0
+    },{
+        "type": "line",
+        "text": "The handwriting is messy, incredibly so, almost unreadable.",
+        "auto": true,
+        "delay": 0
+    },{
+        "type": "line",
+        "text": "But with some brainpower you eventually decipher it",
+        "auto": true,
+        "delay": 0
+    },{
+        "type": "line",
+        "text": "It asks:",
+        "auto": true,
+        "delay": 0
+    },{
+        "type": "line",
+        "text": "WH[]T A[]OUT US?",
+        "auto": true,
+        "delay": 0
+    },
+{
+        "type": "line",
+        "text": "WH[]T A[]OUT US?",
+        "auto": true,
+        "delay": 0
+    }
+{
+        "type": "line",
+        "text": "Do you?",
+        "auto": true,
+        "delay": 0
+    }
+{
+        "type": "input",
+        "options": [["Go to the pod to search for oddities", "B1.json"]]
+    },
