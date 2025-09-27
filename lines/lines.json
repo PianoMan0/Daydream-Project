@@ -151,5 +151,5 @@
     
     {
         "type": "input",
-        "options": [["Pick up the newspaper", "file_to_go_to"], ["input 2", "file2_to_go_to"]]
+        "options": [["Pick up the newspaper", "A1"], ["Go Check Your Pod For Oddities", "B1"]]
 
