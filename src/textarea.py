@@ -13,10 +13,9 @@ class TextArea:
         self.current_line = None
 
     def draw_most_recent_line(self) -> None:
-        lines = list(filter(lambda x: x[1].drawing != False, enumerate(self.lines)))
+        lines = list(filter(lambda x: x.drawing != False, self.lines))
         if len(lines) == 0: return
-        line: Line = lines[0][1]
-        index = lines[0][0]
+        line: Line = lines[0]
         if self.current_line != line:
             self.extend_surf(line.surface.height)
             self.current_line = line
