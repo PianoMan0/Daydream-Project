@@ -1,0 +1,143 @@
+[
+{
+        "type": "line",
+        "text": "You’ve been wandering in the metro station ",
+        "auto": true,
+        "delay": 0
+    },
+  {
+        "type": "line",
+        "text": "for a while now.",
+        "auto": true,
+        "delay": 0
+    },
+  {
+        "type": "line",
+        "text": "For the time you were frozen,  ",
+        "auto": true,
+        "delay": 0
+    },
+  {
+        "type": "line",
+        "text": "it had changed from familiar to foreign.",
+        "auto": true,
+        "delay": 0
+    },
+  {
+        "type": "line",
+        "text": "There was no chatter, no screens, no roaring hovertrains.",
+        "auto": true,
+        "delay": 0
+    },
+  {
+        "type": "line",
+        "text": "You have been camping out in the metro",
+        "auto": true,
+        "delay": 0
+    },
+  {
+        "type": "line",
+        "text": "for weeks",
+        "auto": true,
+        "delay": 0
+    },
+  {
+        "type": "line",
+        "text": "scavenging above for food.",
+        "auto": true,
+        "delay": 0
+    },
+  {
+        "type": "line",
+        "text": "Anything that looked remotely edible.",
+        "auto": true,
+        "delay": 0
+    },
+    {
+        "type": "line",
+        "text": "You felt a pair of eyes on you,",
+        "auto": true,
+        "delay": 0
+    },
+
+    {
+        "type": "line",
+        "text": "whether you were looking for water, picking berries, ",
+        "auto": true,
+        "delay": 0
+    },
+
+    {
+        "type": "line",
+        "text": "or hunting cats.",
+        "auto": true,
+        "delay": 0
+    },
+
+    {
+        "type": "line",
+        "text": "There was always something looking. A slight prickle.",
+        "auto": true,
+        "delay": 0
+    },
+
+    {
+        "type": "line",
+        "text": "But every time you looked,",
+        "auto": true,
+        "delay": 0
+    },
+
+    {
+        "type": "line",
+        "text": "all there was smudged graffiti and checkered tile.",
+        "auto": true,
+        "delay": 0
+    },
+
+    {
+        "type": "line",
+        "text": "The metro had been your base, somewhere safe.",
+        "auto": true,
+        "delay": 0
+    },
+      {
+        "type": "line",
+        "text": "But you still couldn’t shake off that feeling of eeriness.",
+        "auto": true,
+        "delay": 0
+    },
+      {
+        "type": "line",
+        "text": "The scanner had been humming every time you ventured north,",
+        "auto": true,
+        "delay": 0
+    },
+      {
+        "type": "line",
+        "text": "but as you walked forward, your goosebumps",
+        "auto": true,
+        "delay": 0
+    },
+        {
+        "type": "line",
+        "text": "would only rise higher,",
+        "auto": true,
+        "delay": 0
+    },
+        {
+        "type": "line",
+        "text": "almost bursting out of your skin.",
+        "auto": true,
+        "delay": 0
+    }
+  
+{
+        "type": "input",
+        "options": [["Leave the metro", "F1.json"], ["Venture north", "E2.json"]]
+    }
+
+
+
+  
+]
