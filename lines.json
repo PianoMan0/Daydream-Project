@@ -1,0 +1,22 @@
+[
+    {
+        "text": "this is a line",
+        "auto": true,
+        "delay": 12
+    },
+    {
+        "text": "this also is a line",
+        "auto": true,
+        "delay": 0 
+    },
+    {
+        "text": "line 3",
+        "auto": true,
+        "delay": 0 
+    },
+    {
+        "text": "and this is line 4",
+        "auto": true,
+        "delay": 0 
+    }
+]
