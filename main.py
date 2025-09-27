@@ -21,4 +21,4 @@ while True:
     window.update()
 
 
-    clock.tick(12)
+    clock.tick(0)
