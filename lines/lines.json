@@ -35,20 +35,121 @@
         "auto": true,
         "delay": 0
     },
+      {
+        "type": "line",
+        "text": "You look around, there seems to be nothing around except for scraps. ",
+        "auto": true,
+        "delay": 0
+    },
+      {
+        "type": "line",
+        "text": "You try to recall your name, but it comes up empty. ",
+        "auto": true,
+        "delay": 0
+    },
+      {
+        "type": "line",
+        "text": "You forgot how old you were when you entered the pods. 35? 40? Or 20? You cannot recall.",
+        "auto": true,
+        "delay": 0
+    },
+      {
+        "type": "line",
+        "text": "Ugh… The light’s too bright.",
+        "auto": true,
+        "delay": 0
+    },
+      {
+        "type": "line",
+        "text": "You take a while for your eyes to adjust, rubbing your eyes and then opening them.",
+        "auto": true,
+        "delay": 0
+    },
+      {
+        "type": "line",
+        "text": "The air is thick with the scent of sickly Bradford pear blossoms and the saccharine scent of honeysuckle.",
+        "auto": true,
+        "delay": 0
+    },
+      {
+        "type": "line",
+        "text": "You wrinkle your nose.",
+        "auto": true,
+        "delay": 0
+    },
+      {
+        "type": "line",
+        "text": "English ivy covered the trees, slowly enwrapping the ground and logs with a tight suffocating embrace.",
+        "auto": true,
+        "delay": 0
+    },
+      {
+        "type": "line",
+        "text": "The ground is brown and murky, cracked in places, but soft underfoot.",
+        "auto": true,
+        "delay": 0
+    },
+      {
+        "type": "line",
+        "text": "There’s a newspaper thrown on the ground, muddied and broken by years of wear and tear",
+        "auto": true,
+        "delay": 0
+    },
+      {
+        "type": "line",
+        "text": "Your eyes catch a quick flashing motion, you see something scurrying across the ground of the forest.",
+        "auto": true,
+        "delay": 0
+    },
+      {
+        "type": "line",
+        "text": "The hair on your neck started to slowly rise as you stared intently at it.",
+        "auto": true,
+        "delay": 0
+    },
+      {
+        "type": "line",
+        "text": "Blue eyes stare into yours",
+        "auto": true,
+        "delay": 0
+    },
+      {
+        "type": "line",
+        "text": "as if they were analyzing the best places to kill,",
+        "auto": true,
+        "delay": 0
+    },
+      {
+        "type": "line",
+        "text": "decapitate,",
+        "auto": true,
+        "delay": 0
+    },
+      {
+        "type": "line",
+        "text": "and devour your body.",
+        "auto": true,
+        "delay": 0
+    },
+      {
+        "type": "line",
+        "text": "Before you, you see a highway: Chipped and gray, wide and long.",
+        "auto": true,
+        "delay": 0
+    },
+      {
+        "type": "line",
+        "text": "Maybe by going onto the highway, you will find the truth.",
+        "auto": true,
+        "delay": 0
+    },
+     "type": "line",
+        "text": "Do you:",
+        "auto": true,
+        "delay": 0
+    },
+    
     {
         "type": "input",
-        "options": [["input 1", "file_to_go_to"], ["input 2", "file2_to_go_to"]]
-    },
-    {
-        "type": "line",
-        "text": "line 3",
-        "auto": true,
-        "delay": 0
-    },
-    {
-        "type": "line",
-        "text": "and this is line 4",
-        "auto": true,
-        "delay": 0
-    }
-]
+        "options": [["Pick up the newspaper", "file_to_go_to"], ["input 2", "file2_to_go_to"]]
+
