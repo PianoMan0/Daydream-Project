@@ -14,7 +14,7 @@ class TextArea:
         self.current_line = None
 
     def draw_most_recent(self) -> None:
-        lines = list(filter(lambda x: x.drawing != False, self.lines))
+        lines = list(filter(lambda x: x.waiting != False, self.lines))
         if len(lines) == 0: return
         line: Line = lines[0]
         if type(line) == Line:

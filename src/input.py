@@ -32,7 +32,7 @@ class Input:
         self.surface = _surface
 
     def draw(self):
-        pygame.draw.rect(self.surface, (255, 255, 255), (0, self.selected*28 + 4, 10, 20))
+        pygame.draw.rect(self.surface, (255, 255, 255), (0, self.selected*24 + 4, 10, 20))
         self.surface.blit(self.textsurf, (0, 0))
         return self.surface
 
