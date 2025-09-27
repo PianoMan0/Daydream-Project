@@ -1,7 +1,7 @@
 import pygame
 from .text import Line
 from .textarea import TextArea
-from .utils import load_lines_from_txt
+from .utils import load_lines_from_file
 
 class Window:
     def __init__(self, size: tuple[int, int]) -> None:

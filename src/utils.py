@@ -1,9 +1,9 @@
 from .text import Line
+import json
 
-def load_lines_from_txt(file_name: str):
+def load_lines_from_file(file_name: str):
     lines = []
-    with open(file_name) as fp:
-        for line in fp.readlines():
-            line = line.rstrip("\r\n").rstrip("\n")
-            lines.append(Line(line))
+    data = json.load(open(file_name))
+    for line in data:
+        lines.append(Line(line))
     return lines
