@@ -19,13 +19,13 @@ class Input:
         for line in self.options:
             chars = f"> {line[0]}"
             text = font.render(chars, True, Palette.text)
-            self.extend_surf(text.height + 4)
+            self.extend_surf(text.get_height() + 4)
             self.textsurf.blit(text, (0, self.height))
-            self.height += text.height + 4
+            self.height += text.get_height() + 4
     
     def extend_surf(self, height: int):
-        _textsurface = pygame.Surface((self.textsurf.width, self.textsurf.height + height), pygame.SRCALPHA)
-        _surface = pygame.Surface((self.surface.width, self.surface.height + height), pygame.SRCALPHA)
+        _textsurface = pygame.Surface((self.textsurf.get_width(), self.textsurf.get_height() + height), pygame.SRCALPHA)
+        _surface = pygame.Surface((self.surface.get_width(), self.surface.get_height() + height), pygame.SRCALPHA)
         _textsurface.blit(self.textsurf, (0, 0))
         _surface.blit(self.surface, (0, 0))
         self.textsurf = _textsurface

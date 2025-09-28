@@ -1,7 +1,7 @@
 [
     {
         "type": "line",
-        "text": "You are a person, waking up thousands of years after your original cryostasis",
+        "text": "You are a person, waking up thousands of years after your original cryostasis.",
         "auto": true,
         "delay": 0
     },
@@ -19,7 +19,7 @@
     },
        {
         "type": "line",
-        "text": " and why humanity seems to be destroyed.",
+        "text": "and why humanity seems to be destroyed.",
         "auto": true,
         "delay": 0
     },

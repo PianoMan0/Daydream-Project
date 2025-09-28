@@ -8,10 +8,14 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "pygame-ce" },
+    { name = "pygbag" },
 ]
 
 [package.metadata]
-requires-dist = [{ name = "pygame-ce", specifier = ">=2.5.5" }]
+requires-dist = [
+    { name = "pygame-ce", specifier = ">=2.5.5" },
+    { name = "pygbag", specifier = ">=0.9.2" },
+]
 
 [[package]]
 name = "pygame-ce"
@@ -40,4 +44,13 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/f0/40/e7c47b0e296a181900e2ab24ef87e2e922ec08f141ab35d0433917f7c5b6/pygame_ce-2.5.5-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:6f50a43ca19e2e060e79ab53f8a9db9c7e3388b39c0015e56e30f17feab6c37f", size = 12436752, upload-time = "2025-07-28T07:48:44.357Z" },
     { url = "https://files.pythonhosted.org/packages/b6/48/036295f5340261d725e75ccf3851d22d18dcedf9627f8e77856e8ba14ad7/pygame_ce-2.5.5-cp314-cp314-win32.whl", hash = "sha256:2515a5d07a856b61871bc47f5c88d9cbb50d81013de865d7cc3a1d3648b4fef9", size = 9904668, upload-time = "2025-07-28T07:48:52.776Z" },
     { url = "https://files.pythonhosted.org/packages/fc/51/908716125a12272494953e4c34abd178b54870611e015078b0238531b90c/pygame_ce-2.5.5-cp314-cp314-win_amd64.whl", hash = "sha256:7f3bafbc6007c96d42f305e2ed7b2ad899ed6aa97546b1457bd50c39fd764dbf", size = 10516298, upload-time = "2025-07-28T07:49:00.866Z" },
+]
+
+[[package]]
+name = "pygbag"
+version = "0.9.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/5a/27/d6d9cf9c0831481b94606652c0861667d9254aecc59c0f1db0f948a126fe/pygbag-0.9.2.tar.gz", hash = "sha256:0e31860742a8ba9c527135cbb6d64f6d7d8d7b23b71ee87a15f1de9474690c25", size = 152074, upload-time = "2024-08-18T22:45:38.498Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/3a/19/6c4b2a515651849138cef43d878eba9a4f8e39113499a99e7c3d97890c5e/pygbag-0.9.2-py3-none-any.whl", hash = "sha256:3a60a80cc28ed21e3d5d98c08a5d8f857911e38e411b6e590ba640158e8656c1", size = 171937, upload-time = "2024-08-18T22:45:36.536Z" },
 ]

@@ -22,19 +22,19 @@ class TextArea:
         line: Line = lines[0]
         if type(line) == Line:
             if self.current_line != line:
-                self.extend_surf(line.surface.height)
+                self.extend_surf(line.surface.get_height())
                 self.current_line = line
             if line.drawing != False:
                 line.draw_next()
-                self.surface.blit(line.surface, (0, self.total_height - line.surface.height))
+                self.surface.blit(line.surface, (0, self.total_height - line.surface.get_height()))
             else:
                 pass
         if type(line) == Input:
             if self.current_line != line:
-                self.extend_surf(line.surface.height)
+                self.extend_surf(line.surface.get_height())
                 self.current_line = line
             if line.waiting:
-                self.surface.blit(line.draw(), (0, self.total_height - line.surface.height))
+                self.surface.blit(line.draw(), (0, self.total_height - line.surface.get_height()))
             else:
                 self.lines = load_lines_from_file(line.file)
                 line.drawing = False
@@ -54,11 +54,11 @@ class TextArea:
         if self.current_line: self.current_line.handle_event(event)
 
     def draw(self) -> None:
-        self.window.blit(self.surface, (0, self.window.height - self.total_height))
+        self.window.blit(self.surface, (0, self.window.get_height() - self.total_height))
         self.window.blit(self.inventory.draw(), (0, 0))
 
     def extend_surf(self, height: int):
-        _surface = pygame.Surface((self.surface.width, self.surface.height + height), pygame.SRCALPHA)
+        _surface = pygame.Surface((self.surface.get_width(), self.surface.get_height() + height), pygame.SRCALPHA)
         _surface.blit(self.surface, (0, 0))
         self.surface = _surface
         self.total_height += height

@@ -9,7 +9,7 @@ class Line:
         self.auto = data.get("auto")
         self.delay = data.get("delay")
         textsurface = font.render(self.text, True, Palette.text)
-        self.surface = pygame.Surface(textsurface.size)
+        self.surface = pygame.Surface(textsurface.get_size())
         self.surface.fill(Palette.background)
         self.character_index = 0
         self.current_x = 0
@@ -25,7 +25,7 @@ class Line:
             if self.can_blit:
                 char = font.render(self.text[self.character_index], True, Palette.text)
                 self.surface.blit(char, (self.current_x, 0))
-                self.current_x += char.width
+                self.current_x += char.get_width()
         if self.text[self.character_index] in [".", ",", ";"]:
             if self.punctuation_delay < 3:
                 self.can_blit = False

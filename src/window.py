@@ -17,9 +17,3 @@ class Window:
     def draw(self) -> None:
         self.textarea.draw_most_recent()
         self.textarea.draw()
-
-    def update(self, area: None = None) -> None:
-        if area is None:
-            pygame.display.update()
-        else: 
-            pygame.display.update(area)
